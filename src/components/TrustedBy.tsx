@@ -1,6 +1,8 @@
 import React from 'react';
 import { Award, Star, Truck } from 'lucide-react';
 
+import blueback from "../assets/Trusted by/blueback.png"
+ 
 const TrustedBy = () => {
   const stats = [
     {
@@ -21,7 +23,8 @@ const TrustedBy = () => {
   ];
 
   return (
-    <section className="py-16 bg-navy-900">
+    <section className="py-16 bg-[#002B55] max-w-7xl mx-auto rounded-3xl relative min-h-[332px] overflow-hidden">
+     
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white mb-4">
@@ -48,6 +51,8 @@ const TrustedBy = () => {
           ))}
         </div>
       </div>
+
+       <img src={blueback} alt="blueback"  className="absolute top-0 left-1/2 translate-x-[-50%] size-[700px]" />
     </section>
   );
 };
