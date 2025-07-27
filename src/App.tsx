@@ -12,6 +12,12 @@ import agri2 from "./assets/Agricultural Products/image2.png"
 import agri3 from "./assets/Agricultural Products/image3.png"
 import agri4 from "./assets/Agricultural Products/image4.png"
 
+
+import land1 from "./assets/Landscape Products/image1.png"
+import land2 from "./assets/Landscape Products/image2.png"
+import land3 from "./assets/Landscape Products/image3.png"
+import land4 from "./assets/Landscape Products/image4.png"
+
 const agriculturalProducts = [
   {
     id: 1,
@@ -54,37 +60,37 @@ const agriculturalProducts = [
 const landscapeProducts = [
   {
     id: 1,
-    image: "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: land1,
     title: "Antigo Fence",
     priceRange: "₹10,024.00 - ₹14,984.82"
   },
   {
     id: 2,
-    image: "https://images.pexels.com/photos/280232/pexels-photo-280232.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: land2,
     title: "JF Australian Trellis",
     priceRange: "₹8,992.00"
   },
   {
     id: 3,
-    image: "https://images.pexels.com/photos/2219118/pexels-photo-2219118.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: land3,
     title: "JF Polyhex Mesh",
     priceRange: "₹4,060.00 - ₹10,770.00"
   },
   {
     id: 4,
-    image: "https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg?auto=compress&cs=tinysrgb&w=400",
+     image: land4,
     title: "JF Privacy Grass Wall",
     priceRange: "₹1,846.10 - ₹18,284.10"
   },
   {
     id: 5,
-    image: "https://images.pexels.com/photos/280232/pexels-photo-280232.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: land1,
     title: "Garden Trellis Panel",
     priceRange: "₹3,500.00 - ₹7,800.00"
   },
   {
     id: 6,
-    image: "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: land2,
     title: "Decorative Fence",
     priceRange: "₹5,200.00 - ₹12,500.00"
   }
