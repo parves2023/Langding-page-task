@@ -7,40 +7,45 @@ import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
+import agri1 from "./assets/Agricultural Products/image1.png"
+import agri2 from "./assets/Agricultural Products/image2.png"
+import agri3 from "./assets/Agricultural Products/image3.png"
+import agri4 from "./assets/Agricultural Products/image4.png"
+
 const agriculturalProducts = [
   {
     id: 1,
-    image: "https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: agri1,
     title: "JF Barbed Wire- 270 GSM",
     priceRange: "₹4,995.00"
   },
   {
     id: 2,
-    image: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: agri2,
     title: "FGC RustFree Fencing Poles",
     priceRange: "₹489.00 - ₹1,999.00"
   },
   {
     id: 3,
-    image: "https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: agri3,
     title: "GI Poultry Mesh",
     priceRange: "₹1,260.00 - ₹10,750.00"
   },
   {
     id: 4,
-    image: "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: agri4,
     title: "JF Bluelink Mesh",
     priceRange: "₹3,067.50 - ₹6,362.50"
   },
   {
     id: 5,
-    image: "https://images.pexels.com/photos/2219118/pexels-photo-2219118.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: agri1,
     title: "Chain Link Fencing",
     priceRange: "₹2,500.00 - ₹4,500.00"
   },
   {
     id: 6,
-    image: "https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg?auto=compress&cs=tinysrgb&w=400",
+     image: agri2,
     title: "Welded Wire Mesh",
     priceRange: "₹1,800.00 - ₹3,200.00"
   }
