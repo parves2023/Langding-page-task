@@ -12,7 +12,7 @@ const InfiniteMarquee: React.FC = () => {
   ];
 
   return (
-    <div className="relative w-full overflow-hidden bg-[#e5f1fd] rotate-[-3deg]">
+    <div className="relative w-full overflow-hidden bg-[#e5f1fd] rotate-[-3deg] my-8">
       <div className="animate-marquee whitespace-nowrap flex gap-8 py-8">
         {content.map((item, idx) => (
           <div

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ProductCard from './ProductCard';
+import { LiaLongArrowAltLeftSolid, LiaLongArrowAltRightSolid } from 'react-icons/lia';
 
 interface Product {
   id: number;
@@ -39,7 +39,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ title, products }) => {
         disabled={currentIndex === 0}
         className="absolute -left-5 border border-gray-950 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-white shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
       >
-        <ChevronLeft className="w-5 h-5 text-gray-600" />
+        <LiaLongArrowAltLeftSolid className="w-5 h-5 text-gray-600" />
       </button>
 
       {/* Right Arrow */}
@@ -48,7 +48,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ title, products }) => {
         disabled={currentIndex >= maxIndex}
         className="absolute -right-5 border border-gray-950 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-white shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
       >
-        <ChevronRight className="w-5 h-5 text-gray-600" />
+        <LiaLongArrowAltRightSolid className="w-5 h-5 text-gray-600" />
       </button>
 
       {/* Products */}

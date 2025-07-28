@@ -1,10 +1,12 @@
 import React from 'react';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
+import JFLogo from '../assets/NavbarImg/logo.png'; // Make sure to import your JF logo image
 
 const Footer = () => {
   return (
-    <footer className="bg-navy-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div>
+      <footer className="bg-[#002b55] text-white container mx-auto rounded-3xl px-4 sm:px-6 lg:px-12 py-16">
+      <div className=" ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Newsletter Section */}
           <div className="lg:col-span-2">
@@ -14,7 +16,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-3 rounded-lg bg-navy-800 border border-navy-700 text-white placeholder-gray-400 focus:outline-none focus:border-accent-400"
+                className="w-full px-4 py-3 rounded-lg bg-[#003366] border border-[#004080] text-white placeholder-gray-400 focus:outline-none focus:border-white"
               />
               <div className="flex items-center space-x-2">
                 <input type="checkbox" id="newsletter" className="rounded" />
@@ -22,7 +24,7 @@ const Footer = () => {
                   Yes, subscribe me to your newsletter.
                 </label>
               </div>
-              <button className="w-full bg-accent-400 hover:bg-accent-500 text-white py-3 rounded-lg font-semibold transition-colors duration-200">
+              <button className="w-full bg-white hover:bg-gray-100 text-[#002b55] py-3 rounded-lg font-semibold transition-colors duration-200">
                 Join Now
               </button>
             </div>
@@ -54,34 +56,37 @@ const Footer = () => {
         </div>
 
         {/* Company Info and Contact */}
-        <div className="mt-12 pt-8 border-t border-navy-700 flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-12 pt-8 border-t border-[#004080] flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-4 mb-4 md:mb-0">
-            <div className="w-12 h-12 bg-gradient-to-br from-navy-600 to-navy-800 rounded-full flex items-center justify-center">
-              <div className="text-white font-bold text-lg">JF</div>
+            <div className='bg-white w-28 p-4 rounded-full'>
+              <img src={JFLogo} alt="JF Products Logo" className="w-full h-full" />
             </div>
             <div>
               <div className="font-semibold">Our Branches</div>
               <div className="text-sm text-gray-300">Coimbatore, Chennai, Hyderabad, Goa, Kochi</div>
             </div>
           </div>
-          <button className="bg-accent-400 hover:bg-accent-500 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200">
+          <button className="bg-[#B0DD1D] rounded-3xl text-black px-6 py-2 border-none font-semibold border border-white transition-colors duration-200">
             Contact Us
           </button>
         </div>
 
-        {/* Copyright and Social */}
-        <div className="mt-8 pt-8 border-t border-navy-700 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-sm text-gray-300 mb-4 md:mb-0">
+
+      </div>
+    </footer>
+
+            {/* Copyright and Social */}
+        <div className=" p-8 container mx-auto text-gray-900 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-sm  mb-4 md:mb-0">
             Copyright © 2025 JF Products. All rights reserved
           </div>
           <div className="flex space-x-4">
-            <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-            <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-            <Youtube className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+            <Facebook className="w-5 h-5 text-gray-700 hover:text-white cursor-pointer transition-colors" />
+            <Instagram className="w-5 h-5 text-gray-700 hover:text-white cursor-pointer transition-colors" />
+            <Youtube className="w-5 h-5 text-gray-700 hover:text-white cursor-pointer transition-colors" />
           </div>
         </div>
-      </div>
-    </footer>
+</div>
   );
 };
 

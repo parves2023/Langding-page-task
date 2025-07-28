@@ -60,7 +60,7 @@ const WhyUs = () => {
                 <img
                   src={feature.icon}
                   alt="icon"
-                  className={`h-[70px] w-[70px] ${index === 0 && 'h-[70px] !w-12'} ${index === 1 ? 'filter' : ''}`}
+                  className={`h-[65px] w-[70px] ${index === 0 && 'h-[70px] !w-12'} ${index === 1 ? 'filter' : ''}`}
                 />
               </div>
 

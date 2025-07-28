@@ -7,6 +7,7 @@ import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import InfiniteMarquee from './components/InfiniteMarquee';
+import ContactUs from './components/ContactUs';
 
 import agri1 from "./assets/Agricultural Products/image1.png"
 import agri2 from "./assets/Agricultural Products/image2.png"
@@ -108,6 +109,7 @@ function App() {
       <WhyUs />
        <InfiniteMarquee />
       <Testimonials />
+      <ContactUs></ContactUs>
       <Footer />
     </div>
   );
