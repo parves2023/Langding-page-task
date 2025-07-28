@@ -6,6 +6,7 @@ import TrustedBy from './components/TrustedBy';
 import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import InfiniteMarquee from './components/InfiniteMarquee';
 
 import agri1 from "./assets/Agricultural Products/image1.png"
 import agri2 from "./assets/Agricultural Products/image2.png"
@@ -105,6 +106,7 @@ function App() {
       <ProductSlider title="Landscape Products" products={landscapeProducts} />
       <TrustedBy />
       <WhyUs />
+       <InfiniteMarquee />
       <Testimonials />
       <Footer />
     </div>

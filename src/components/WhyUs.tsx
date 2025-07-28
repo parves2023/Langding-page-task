@@ -41,7 +41,7 @@ const WhyUs = () => {
             <div
               key={index}
               className={`relative bg-[#f2f4f6] w-[350px] h-[450px] rounded-3xl p-8 flex flex-col items-start text-left overflow-hidden ${
-                index === 1 ? 'mt-0 bg-[#002b55]' : 'mt-12'
+                index === 1 ? 'mt-0 !bg-[#002b55]' : 'mt-12'
               }`}
             >
               {/* Background Image */}
