@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { MapPin } from 'lucide-react';
 
 import Primaryimage from '../assets/Our Branches/Primaryimage.png' //bg color #f7fce8 border color #d7ee8e
 import image1 from '../assets/Our Branches/image1.png' 
@@ -51,9 +50,9 @@ const ContactUs = () => {
         
         {/* Our Branches Section */}
         <div className="text-center mb-12 ">
-          <div className="inline-block bg-[#B0DD1D] px-6 py-2 rounded-full text-sm font-semibold mb-8 absolute -top-5 left-[35rem]">
-            OUR BRANCHES
-          </div>
+<div className="inline-block bg-[#B0DD1D] px-4 md:px-6 py-1 md:py-2 rounded-full text-xs md:text-sm font-semibold mb-6 md:mb-8 absolute -top-3 md:-top-5 left-1/2 transform -translate-x-1/2 md:left-[35rem] md:translate-x-0">
+  OUR BRANCHES
+</div>
           
           {/* Branch Icons */}
           <div className="flex justify-center items-center gap-8 flex-wrap mb-12">

@@ -50,12 +50,12 @@ const HeroSlider = () => {
 
   return (
 <div className="pt-5">
-  <div className="relative h-96 md:h-[700px] container mx-auto rounded-3xl overflow-hidden bg-[#f2f4f6]">
-  <div className="flex transition-transform duration-700 ease-in-out"
+  <div className="relative md:h-[700px] container mx-auto rounded-3xl overflow-hidden bg-[#f2f4f6]">
+  <div className="flex  transition-transform duration-700 ease-in-out"
        style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
     {slides.map((slide, index) => (
       <div key={index} className="min-w-full flex items-center justify-center px-4 py-8">
-        <div className="max-w-7xl w-full flex flex-row-reverse items-center justify-between gap-16">
+        <div className="max-w-7xl w-full flex md:flex-row-reverse flex-col-reverse  items-center justify-between gap-16">
           {/* Text section */}
           <div className="flex-1 max-w-2xl">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
